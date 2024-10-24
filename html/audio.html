@@ -1,0 +1,154 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Itai Rosete Velazco
+--> 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Audio</title>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        <style type="text/css">
+            header, nav, main, footer{
+                width: 97%;
+            }
+            
+            main{
+                text-align: center;
+            }
+            
+            section{
+                width: 40%;
+                height: 400px;
+                display: inline-block;
+                margin: 10px;
+                text-align: left;
+                overflow: auto;
+            }
+            
+            audio, iframe{
+                margin: 30px auto;
+                display: block;
+            }
+            
+            footer{
+                text-align: center;
+            }
+            
+    /*menu*/        
+            ul li{
+            width: 71px;
+            background-color: #EEEEEE;
+            color:#201E43;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        ul li a{
+            text-decoration: none;
+            color: #201E43;
+        }
+        
+    
+        nav ul li a:link, nav ul li a:visited{
+            color: #508C9B;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color:  #EEEEEE;
+       
+        }
+        nav li:hover, nav li a:hover{
+            background-color: #201E43;
+            color: #EEEEEE;
+        }
+            
+        </style>
+    </head>
+    
+<body>
+    <header>
+    <h1>AUDIO EN HTML</h1>
+    </header>
+<nav>
+    
+    <ul>
+            <li> <a href="../index.html">Formatos</a> </li>
+            <li> <a href="listas.html">Listas</a></li>
+            <li> <a href="enlaces.html">Enlaces</a> </li>
+            <li> <a href="tablas.html">Tablas</a> </li>
+            <li> <a href="imagenes.html">Imagenes</a> </li>
+            <li> <a href="audio.html">Audio</a> </li>
+            <li> <a href="video.html">Video</a> </li>
+            <li> <a href="formularios.html">Formularios</a> </li>
+        </ul>
+    
+</nav>
+    
+    <main>
+    <section>
+        <h2>Música para iniciar un buen día</h2>
+		<h4>Audio</h4>
+        <p>
+Escuchar música al comenzar el día tiene un impacto significativo en nuestro estado de ánimo y energía. La música puede actuar como un poderoso estimulante emocional, ayudando a establecer un tono positivo desde primera hora. Canciones animadas y ritmos vibrantes pueden elevar nuestra energía, motivándonos a enfrentar las tareas del día con entusiasmo y determinación. <br> <br>
+
+Además, la música tiene el potencial de mejorar la concentración y la productividad. Melodías suaves o instrumentales pueden crear un ambiente propicio para la concentración, mientras que ritmos más enérgicos pueden incentivar la actividad física y la motivación.</p>
+        <audio controls>
+			<source src="../audios/sugar.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio mp3.
+        </audio>
+    </section>
+    
+     <section>
+		<h2>Música que no debes escuchar</h2>
+        <h4>Audio con reproducción automática y mute</h4>
+        <p>Para comenzar el día con energía y buen ánimo, debes optar por música más positiva, alegre y motivadora te ayudará a iniciar el día de la mejor manera posible. es mejor evitar: <br> <br>
+
+Música muy melancólica: Canciones con letras tristes o melodías pesadas pueden provocar sentimientos de tristeza o nostalgia, lo que no es ideal para iniciar el día. <br> <br>
+
+Música agresiva o violenta: Géneros o canciones con letras agresivas. <br> <br>
+
+Ritmos: Temas muy suaves o lentos pueden hacerte sentir somnoliento y con menos energía. <br> <br>
+
+</p>
+        <audio controls muted autoplay>
+         <source src="../audios/highway.mp3" type="audio/mp3">
+         Tu navegador no soporta el formato de audio mp3.
+        </audio>
+    </section>
+        
+     <section>
+        <h2>Canción que te puede inspirar</h2>
+		<h4>Audio con loop</h4>
+        <p>Una canción que inspira generalmente tiene letras motivadas que hablan sobre superación, esperanza y determinación, generando un sentido de empoderamiento. La melodía suele ser pegajosa y alegre, lo que eleva el ánimo y hace que te sientas bien. Un ritmo enérgico también es importante, ya que puede activar tu cuerpo y mente, impulsándote a actuar. La interpretación vocal debe transmitir pasión y autenticidad, ayudando a crear una conexión emocional con el oyente. Además, una instrumentación rica, que incluye guitarras, percusiones o arreglos orquestales, puede añadir profundidad y dinamismo a la experiencia. </p>
+        <audio controls loop>
+            <source src="../audios/highway.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio mp3.
+        </audio>
+    </section>
+        
+     <section>
+        <h2>Libro favorito del momento</h2>
+		<h4>Audio de banco de audios</h4>
+        <p>
+"El Tesoro de la Bestia Maga" es un relato de terror escrito por HP Lovecraft y RH Barlow que explora los temas de la locura, lo desconocido y la avaricia. La historia sigue a un grupo de aventureros que se embarcan en una búsqueda para descubrir un antiguo tesoro, supuestamente protegido por una criatura sobrenatural. A medida que se adentran en territorios inexplorados, se enfrentan a horrores indescriptibles y a la revelación de verdades perturbadoras sobre su propia naturaleza. Lovecraft, conocido por su estilo atmosférico y su habilidad para evocar el miedo a lo desconocido, junto con Barlow, logra crear una atmósfera inquietante que sumerge al oyente en un mundo intrigante y distinto.
+            <iframe src="https://www.ivoox.com/player_ej_134061602_6_1.html?c1=1C5560" width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" loading="lazy"></iframe> </p>
+    </section>
+        
+    <section>
+        <h2>Mi playlist favorita</h2>
+		<h4>Audio de spotify</h4>
+        <p>El nuevo álbum de Trueno, titulado "Bien o Mal", muestra una evolución en su estilo y lírica, fusionando ritmos urbanos con influencias de distintos géneros. La canción "Real Gangsta Love" destaca por su potente mezcla de rap y melodías pegajosas, donde Trueno explora temas de amor auténtico y lealtad en un contexto urbano. La producción es rica y vibrante, con ritmos contundentes que complementan su flujo distintivo. <br> <br>
+
+En "Real Gangsta Love", Trueno narra experiencias personales y sentimientos profundos, combinando su característico estilo de rima con momentos de vulnerabilidad. La canción se siente como un homenaje a las relaciones sinceras que florecen incluso en medio de adversidades. A través de su lírica, el artista logra transmitir una conexión emocional, mientras que el ritmo mantiene una energía contagiosa que invita a disfrutar y bailar. En conjunto, el álbum refleja la madurez artística de Trueno y su capacidad para abordar temas complejos de manera auténtica. </p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EIYKOn3VFmvkm?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+    
+    
+    </main>
+    <footer>Elaborado por Itai Rosete</footer>
+
+    </body>
+</html>

@@ -1,0 +1,412 @@
+header{
+    background-color: #1C5560;
+    color: #fbffcd;
+    font-size: 25px;
+    height: 150px;
+    text-align: center;
+}
+
+header,nav,main,footer{
+                width: 97%;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+        
+        
+ nav{
+    height: 50px;
+    background-color: #001F36;
+    color: #fbffcd;
+}
+            
+
+ul{
+list-style-type: none;
+ text-align: center;
+}
+
+ul a:hover{
+            color: #508C9B;
+            font-weight: bold;
+        }
+        
+li{
+display: inline-block;
+ margin-left: 10px;
+margin-right: 10px;
+}
+        
+            main{
+                height: auto;
+                background-color: #FBFFCD;
+                padding: 30px;
+            }
+        
+            main nav{
+            width: 600px;
+            }
+        
+            footer{
+            height: 50px;
+            background-color: #001F36;
+			text-align: center;
+            }
+        
+            section{
+            width: 70%;
+            height: auto;
+            background-color: #001F36;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 30px;
+            }
+
+table{
+    color: #EEEEEE;
+    margin: 0 auto;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.tabla2{
+    border-collapse: collapse;
+    width: 900px;
+}
+.tabla2 th{
+    background-color: #508C9B;
+    height: 50px;
+}
+.tabla2 tbody{
+    background-color: #FBFFCD;
+    color: #001F36;
+}
+.tabla2 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+}
+.tabla2 td, .tabla2 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #508C9B;
+    
+}
+
+#tabla2{
+    width: 150%;
+}
+
+#tabla3{
+    border-collapse: collapse;
+    width: 1000px;
+    border: 3px solid #1C5560;
+}
+
+#tabla3 thead tr th{
+    background-color: #1C5560;
+    padding: 20px;
+}
+
+#tabla3 td{
+    height: 40px;
+    padding: 10px;
+}
+
+#tabla3 tr:nth-child(even){
+    background-color: #508C9B;
+    
+}
+
+#tabla3 tbody tr:nth-child(odd){
+    background-color: #FBFFCD;
+    color: #001F36;
+    
+}
+
+#tabla4{
+    width: 90%;
+    border-collapse: collapse;
+}
+#tabla4 tr th{
+    border: 3px solid #508C9B;
+    background-color: #1C5560;
+    padding: 10px;
+}
+
+#tabla4 tr td{
+    border: 3px solid #508C9B;
+    padding: 10px;
+}
+
+#tabla4 tbody tr:hover{
+    background-color: #FBFFCD;
+    color: #1C5560;
+}
+
+img{
+    /* display: block;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+            h2{
+            margin-bottom: 20px;
+                margin-top: 10px;
+            }
+        
+            h1,h5{
+            text-align: center;
+            padding: 30px;
+            }
+        p{
+            margin-bottom: 20px;
+        }
+        
+        
+        ul li{
+            width: 71px;
+            background-color: #EEEEEE;
+            color:#001F36;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        ul li a{
+            text-decoration: none;
+            color: #201E43;
+        }
+        
+
+#playis{
+    width: 180px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+      
+p{
+    margin-bottom: 15px;
+}
+
+#playa{
+    width: 260px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+#puerta{
+    display: block;
+    width: 320px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#costa{
+    display: block;
+    width: 320px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icono_playa{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#beach{
+    display: block;
+    width: 320px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img_filtros{
+    text-align: center
+}
+
+#img_filtros img{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+#filtro1{
+    filter:brightness(200%); 
+}
+
+#filtro2{
+    filter: contrast(200%);
+}
+
+#filtro3{
+    filter: grayscale(100%);
+}
+
+#filtro4{
+    filter: sepia(100%);
+}
+
+#filtro5{
+    filter: saturate(150%);
+}
+
+#filtro6{
+    filter: opacity(50%);
+}
+
+#filtro7{
+    filter: invert(100%);
+}
+
+#filtro8{
+    filter: blur(5px);
+}
+
+#filtro9{
+    filter: drop-shadow(8px 8px 5px blue);
+}
+
+#filtro10{
+    filter: contrast(150%) drop-shadow(10px 10px 5px lightblue);
+}
+
+#filtro11{
+    filter: brightness(150%) blur(1px) saturate(150%);
+}
+
+#filtro12{
+    filter: grayscale(100%) contrast(180%);
+}form  {
+    width: 50%;
+    padding-top: 29px;
+    padding-right: 29px;
+    padding-left: 29px;
+    padding-bottom: 29px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: #FBFFCD;
+    color: #001F36;
+}
+#form2 cancionfav {
+    margin-bottom: -2px;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    padding-top: 6px;
+}
+#form2 p #myfile {
+    padding-top: 6px;
+    margin-top: 7px;
+}
+
+#form2 p #birthday {
+    margin-top: 13px;
+}
+#form2 nueve {
+    margin-bottom: 31px;
+    padding-bottom: 32px;
+    margin-top: -10px;
+}
+#form2 p #homepage {
+    margin-top: 10px;
+}
+#form2 p #email {
+    margin-top: 6px;
+}
+
+
+
+
+
+
+label {
+    color: #001F36;
+    font-weight: bolder;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+input[type=text], input[type=password]
+{
+    width: 100%;
+    margin-bottom: 20px;
+
+
+
+
+	tipetext
+;                 margin-top: 9px;
+}
+input [type=submit ]   {
+    height: 40px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    background-color: #1C5560;
+    color: #FFFFFF;
+    padding-top: 0px;
+}
+
+
+#nombre {
+    margin-top: 12px;
+}
+#apellidos {
+    margin-bottom: 8px;
+    margin-top: 11px;
+}
+#edad {
+    margin-top: 37px;
+    margin-bottom: -5px;
+}
+#form2 #number {
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+#form2 p #vol {
+    margin-top: 13px;
+}
+#form2 p input {
+    margin-top: 20px;
+}
+
+
+
+
+#form2 #edad {
+    width: 30%;
+    margin-top: 47px;
+    margin-bottom: -8px;
+    padding-top: 0px;
+}
+#form2 #submit2 {
+    padding-top: 0px;
+    margin-top: 9px;
+}
+#form2 #select {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}

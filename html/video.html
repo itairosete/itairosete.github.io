@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>video</title>
+	<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		video{
+			width: 80%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		iframe{
+			display: block;
+			margin: 0 auto;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Video en HTML</h1>
+	</header>
+	
+	<nav>
+		
+		<ul>
+            <li> <a href="../index.html">Formatos</a> </li>
+            <li> <a href="listas.html">Listas</a></li>
+            <li> <a href="enlaces.html">Enlaces</a> </li>
+            <li> <a href="tablas.html">Tablas</a> </li>
+            <li> <a href="imagenes.html">Imagenes</a> </li>
+            <li> <a href="audio.html">Audio</a> </li>
+            <li> <a href="video.html">Video</a> </li>
+            <li> <a href="formularios.html">Formularios</a> </li>
+      	</ul>
+	
+	</nav>
+	<main>
+		<section>
+			<h2>Camino a casa </h2>
+			<h4>Video con controles</h4>
+			<p>Cuando salgo de la universidad suelen ser las 7pm, mi papá siempre va por mí y es algo que disfruto mucho, ya que el camino a casa suele ser tranquilo, escuchamos música a todo volumen o platicamos acerca de nuestro día, esos pequeños momentos del día son los que más aprecio y disfruto.</p>
+			<video controls>
+				<source src="../videos/personas.mp4" type="video/mp4">
+				<source src="#" type="video/ogg">
+				<source src="#" type="video/webm">
+				El navegador no soporta este formato de video.
+			</video>
+		</section>
+		
+		<section>
+			<h2>Momento favorito del día</h2>
+			<h4>Video autoplay y loop</h4>
+			<p>Mi momento favorito del día es cuando llega la noche y puedo apreciar las luces de toda la ciudad, pienso en todas las personas que viven alrededor de mí, pienso en que apesar de que todos estamos en el mismo lugar cada persona tiene una historia y su propio mundo. Me gusta cuando llega ese momento en el que puedo respirar un poco y reflexionar acerca de mi vida.</p>
+			<video autoplay loop muted>
+				<source src="../videos/ciudad_noche.mp4" type="video/mp4">
+				El navegador no soporta este formato de video.
+			</video>
+		</section>
+		
+		<section>
+			<h2>Algo que me gustaría hacer </h2>
+			<h4>Video con poster</h4>
+			<p>Algo que siempre me ha llamado la atención son los conciertos, nunca he ido a uno y la verdad es algo que me gustaría. Apesar de que amo escuchar música todo el tiempo no tengo una banda o artista favorito, disfruto escuchar música variada y tal vez esa sea la razón por la que aún no voy a un concierto, simplemente no sé a qué artista quiero ver. </p>
+			<video controls poster="../imagenes/cconcierto.jpg">
+				<source src="../videos/concierto.mp4" type="video/mp4">
+				El navegador no soporta este formato de video.
+			</video>
+		</section>
+		<section>
+			<h2>Video que me motiva </h2>
+			<h4>Video de YouTube</h4>
+			<p>Este video habla sobre como conectar contigo mismo para poder despertar o iniciar el día motivado, este vídeo lo encontré un día en el que me sentía decaída y desmotivada, si tu te sientes así te recomiendo verlo, ya que en su momento me ayudo a mí y espero que a ti también te ayude.</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/CLCJaiyjKkc?si=fL60Ljzx-TfdzeV4&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</section>
+		
+		
+	</main>
+	
+	<footer>
+		<h5>Elaborado por Itai Rosete</h5>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario
+Itai Rosete Velazco
+--> 
+
+<html lang>
+<head>
+    <meta charset="utf-8">
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href= "../css/style_page.css" type="text/css">
+</head>
+
+<body>
+    
+    <header>
+    <h1>TABLAS EN HTML</h1>
+    </header>
+    
+    <nav>
+        
+        <ul>
+                
+            <li> <a href="../index.html">Formatos</a> </li>
+            <li> <a href="listas.html">Listas</a></li>
+            <li> <a href="enlaces.html">Enlaces</a> </li>
+            <li> <a href="tablas.html">Tablas</a> </li>
+            <li> <a href="imagenes.html">Imagenes</a> </li>
+            <li> <a href="audio.html">Audio</a> </li>
+            <li> <a href="video.html">Video</a> </li>
+            <li> <a href="formularios.html">Formularios</a> </li>
+            
+        </ul>
+    </nav>
+    
+    <main>
+    <section>
+        <h2>Personas cercanas a mí</h2>
+		<h4>Tabla simple con separación de borde de celda</h4>
+        <p>En la siguiente tabla se destacan las personas más cercanas a mí, como lo es mi familia y mis amigas más cercanas. El la primera columna se mencionan sus nombres, seguido por sus apellidos (paterno y materno) y finalmente la relación o parentesco que tienen conmigo. </p>
+        
+        <table border="1" id="tabla1">
+            <thead>
+                <tr>
+                    <th>Nombre (s)</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Relación o parentesco</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                
+                <tr>
+                    <td>Ruben</td>
+                    <td>Rosete</td>
+                    <td>Hernández</td>
+                    <td>Padre</td>
+                </tr>
+                
+                <tr>
+                    <td>Hitan Divi</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>Hermana</td>
+                </tr>
+                
+                 <tr>
+                    <td>Daira</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>Hermana</td>
+                </tr>
+                
+                 <tr>
+                    <td>Montserrat</td>
+                    <td>Minutti</td>
+                    <td>Noriega</td>
+                    <td>Amiga</td>
+                </tr>
+                
+                 <tr>
+                    <td>Brenda</td>
+                    <td>Cielo</td>
+                    <td>Anselmo</td>
+                    <td>Amiga</td>
+                </tr>
+                
+                 <tr>
+                    <td>Maricruz</td>
+                    <td>Saavedra</td>
+                    <td>Varilla</td>
+                    <td>Amiga</td>
+                </tr>
+                
+                
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        
+    </section>
+    
+    <section>
+        <h2>Datos de contacto de mi familia</h2>
+		<h4>Tabla modificada por clase y con uso de colspan</h4>
+        <p>En esta tabla se colocaron algunos datos de contacto relevantes sobre mi familia, como su nombre, apellidos (paterno y materno), números telefónicos y correo electrónico o e-mail.</p>
+        
+        <table border="1" class="tabla2">
+            <thead>
+                <tr>
+                    <th>Nombre (s)</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th colspan="2">Telefonos</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                
+                <tr>
+                    <td>Ruben</td>
+                    <td>Rosete</td>
+                    <td>Hernández</td>
+                    <td>222346578</td>
+                    <td>2228750348</td>
+                    <td>ruben.rosete@gmail.com</td>
+                </tr>
+                
+                <tr>
+                    <td>Hitan Divi</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>2227692487</td>
+                    <td>2224378954</td>
+                    <td>hitandiv.ros@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Daira</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>2224370946</td>
+                     <td>2227509634</td>
+                    <td>rosete.daira1@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Celia</td>
+                    <td>Rosete</td>
+                    <td>Hernández</td>
+                    <td>2224598096</td>
+                    <td></td>
+                    <td>celi.hern@gmail.com</td>
+                </tr>
+
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+        
+    <section>
+        <h2>Datos de contacto de mis amigos</h2>
+		<h4>Tabla zebra</h4>
+        <p>En esta tabla se colocaron algunos datos de contacto relevantes sobre mis amigos, como su nombre, apellidos (paterno y materno), número telefónico y correo electrónico o e-mail. Las personas incluidas en esta tabla son importantes para mi y con quienes paso la mayor parte del tiempo.</p>
+        
+        <table border="1" id="tabla3">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Telefono</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                
+                <tr>
+                    <td>Maricruz</td>
+                    <td>Saavedra</td>
+                    <td>Varilla</td>
+                    <td>222346578</td>
+                    <td>mari.cruz1@gmail.com</td>
+                </tr>
+                
+                <tr>
+                    <td>Montserrat</td>
+                    <td>Minutti</td>
+                    <td>Noriega</td>
+                    <td>2227692487</td>
+                    <td>mon.min@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Brenda</td>
+                    <td>Cielo</td>
+                    <td>Anselmo</td>
+                    <td>2224370946</td>
+                    <td>cielo.bren21@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Benjamín</td>
+                    <td>Trelles</td>
+                    <td>Gil</td>
+                    <td>2224598096</td>
+                    <td>ben.trelles01@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Cesar</td>
+                    <td>González</td>
+                    <td>Domínguez</td>
+                    <td>223657809</td>
+                    <td>cesi_dom98@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Benny</td>
+                    <td>González</td>
+                    <td>Morales</td>
+                    <td>2234876598</td>
+                    <td>benny.gon56@gmail.com</td>
+                </tr>
+                
+                
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+        
+    <section>
+        <h2>Contactos de emergencia</h2>
+		<h4>Tabla hover</h4>
+        <p>Los datos proporcionados en la siguiente tabla se refieren a las personas que se debería llamar o contactar en caso de emergencia, en dado caso que yo me encuentre en peligro.</p>
+        
+        <table border="1" id="tabla4">
+            <thead>
+                <tr>
+                    <th>Nombre (s)</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Telefono</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+
+                 <tr>
+                    <td>Ruben</td>
+                    <td>Rosete</td>
+                    <td>Hernández</td>
+                    <td>222346578</td>
+                    <td>ruben.rosete@gmail.com</td>
+                </tr>
+                
+                <tr>
+                    <td>Hitan Divi</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>2227692487</td>
+                    <td>hitandiv.ros@gmail.com</td>
+                </tr>
+                
+                 <tr>
+                    <td>Daira</td>
+                    <td>Rosete</td>
+                    <td>Velazco</td>
+                    <td>2224370946</td>
+                    <td>rosete.daira1@gmail.com</td>
+                </tr>
+                
+                
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+    
+    <section style="overflow: auto;">
+        <h2>Acerca de mis amigos</h2>
+		<h4>Tabla con overflow</h4>
+        <p>La siguiente tabla recopila información relevante sobre mis amigos más cercanos, como sus nombres, apellidos, teléfono, e-mail, fecha de cumpleaños y color favorito. </p>
+        
+        <table border="1" id="tabla2" class="tabla2">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Teléfono</th>
+                    <th>E-mail</th>
+					<th>Cumpleaños</th>
+					<th>Color Favorito</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                
+                <tr>
+                    <td>Maricruz</td>
+                    <td>Saavedra</td>
+                    <td>Varilla</td>
+                    <td>222346578</td>
+                    <td>mari.cruz1@gmail.com</td>
+					<td>21 de Enero</td>
+					<td>Azul</td>
+                </tr>
+                
+                <tr>
+                    <td>Montserrat</td>
+                    <td>Minutti</td>
+                    <td>Noriega</td>
+                    <td>2227692487</td>
+                    <td>mon.min@gmail.com</td>
+					<td>6 de Febrero</td>
+					<td>Rosa</td>
+                </tr>
+                
+                 <tr>
+                    <td>Brenda</td>
+                    <td>Cielo</td>
+                    <td>Anselmo</td>
+                    <td>2224370946</td>
+                    <td>cielo.bren21@gmail.com</td>
+					<td>27 de Enero</td>
+					<td>Verde</td>
+                
+                 <tr>
+                    <td>Benjamín</td>
+                    <td>Trelles</td>
+                    <td>Gil</td>
+                    <td>2224598096</td>
+                    <td>ben.trelles01@gmail.com</td>
+					<td>11 de Julio</td>
+					<td>Azul</td>
+                </tr>
+                
+                 <tr>
+                    <td>Cesar</td>
+                    <td>González</td>
+                    <td>Domínguez</td>
+                    <td>223657809</td>
+                    <td>cesi_dom98@gmail.com</td>
+					<td>10 de Marzo</td>
+					 <td>Rojo</td>
+                </tr>
+                
+                 <tr>
+                    <td>Benny</td>
+                    <td>González</td>
+                    <td>Morales</td>
+                    <td>2234876598</td>
+                    <td>benny.gon56@gmail.com</td>
+					<td>8 de Abril</td>
+					<td>Rojo</td>
+                </tr>
+                
+                
+                
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+    
+		
+    
+    </main>
+    
+    <footer>Elaborado por Itai Rosete</footer>
+    </body>
